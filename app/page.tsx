@@ -29,11 +29,20 @@ export default function Home() {
         {/* HEADER */}
         <div className="h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
           <div className="text-center mt-10">
-          <h1 className="text-white text-5xl font-bold mb-2">Find your table for any occassion</h1>
-          </div>
-
+            <h1 className="text-white text-5xl font-bold mb-2">
+              Find your table for any occassion
+            </h1>
+             {/* SEARCH BAR */}
+        <div className="text-left py-3 m-auto flex justify-center">
+          <input className="bg-white rounded text-lg mr-3 p-2 w-[450px]" type="text" placeholder="State, City, or Town"></input>
+        <button className="rounded bg-red-600 px-9 py-2 text-white">Let's Go</button>
         </div>
-         {/* HEADER */}
+      
+        {/* SEARCH BAR */}
+          </div>
+        </div>
+        {/* HEADER */}
+       
       </main>
     </main>
   );
