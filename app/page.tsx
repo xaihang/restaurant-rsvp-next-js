@@ -18,7 +18,7 @@ export default function Home() {
             <button className="bg-blue-400 text-white border p-1 px-4 rounded mr-3">
               Sign in
             </button>
-            <button className="text-black border p-1 px-4 rounded">
+            <button className="text-gray-700 border p-1 px-4 rounded">
               Sign up
             </button>
           </div>
@@ -32,17 +32,48 @@ export default function Home() {
             <h1 className="text-white text-5xl font-bold mb-2">
               Find your table for any occassion
             </h1>
-             {/* SEARCH BAR */}
-        <div className="text-left py-3 m-auto flex justify-center">
-          <input className="bg-white rounded text-lg mr-3 p-2 w-[450px]" type="text" placeholder="State, City, or Town"></input>
-        <button className="rounded bg-red-600 px-9 py-2 text-white">Let's Go</button>
-        </div>
-      
-        {/* SEARCH BAR */}
+            {/* SEARCH BAR */}
+            <div className="text-left py-3 m-auto flex justify-center">
+              <input
+                className="bg-white rounded text-lg mr-3 p-2 w-[450px]"
+                type="text"
+                placeholder="State, City, or Town"
+              ></input>
+              <button className="rounded bg-red-600 px-9 py-2 text-white">
+                Let's Go
+              </button>
+            </div>
+
+            {/* SEARCH BAR */}
           </div>
         </div>
         {/* HEADER */}
-       
+        {/* CARDS */}
+        <div className="py-3 px-36 mt-10 flex flex-wrap">
+          {/* CARD */}
+          <div className="w-64 h-72 m-3 rounded overflow-hidden border cursor-pointer">
+            <img
+              src="https://images.unsplash.com/photo-1550367363-ea12860cc124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+              alt="beef ribs"
+              className="w-full h-36"
+            />
+            <div className="p-1">
+              <h3 className="font-bold text-2xl mb-2 text-black">Bar Zia</h3>
+              <div className="flex items-start">
+                <div className="flex mb-2">⭐️⭐️⭐️⭐️⭐️</div>
+                <p className="ml-2 text-black">77 Reviews</p>
+              </div>
+              <div className="flex text-reg font-light text-black capitalize">
+                <p className=" mr-3">Grill</p>
+                <p className="mr-3">$$</p>
+                <p className="mr-3">Minneapolis</p>
+              </div>
+              <p className="text-black text-sm mt-1 font-bold">Booked 4 times today!</p>
+            </div>
+          </div>
+          {/* CARD */}
+        </div>
+        {/* CARDS */}
       </main>
     </main>
   );
