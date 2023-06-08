@@ -65,9 +65,74 @@ export default function Home() {
           {/* RATING */}
           {/* DESCRIPTION */}
           <div className="mt-4">
-            <p className="text-lg font-light">Pizza with a signature spicy but sweet sauce, as well as pasta & sandwiches.</p>
+            <p className="text-lg font-light">
+              Pizza with a signature spicy but sweet sauce, as well as pasta &
+              sandwiches.
+            </p>
           </div>
-                  {/* DESCRIPTION */}
+          {/* DESCRIPTION */}
+          {/* IMAGES */}
+          <div>
+            <h1 className="font-bold text-3xl mt-10 mb-7 border-b pb-5">
+              5 photos
+            </h1>
+            <div className="flex flex-wrap">
+              <img
+                className="w-56 h-44 mr-1 mb-1"
+                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+                alt="food1"
+              ></img>
+              <img
+                className="w-56 h-44 mr-1 mb-1"
+                src="https://images.unsplash.com/photo-1502998070258-dc1338445ac2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+                alt="food2"
+              ></img>
+              <img
+                className="w-56 h-44 mr-1 mb-1"
+                src="https://images.unsplash.com/photo-1568376794508-ae52c6ab3929?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+                alt="food3"
+              ></img>
+              <img
+                className="w-56 h-44 mr-1 mb-1"
+                src="https://images.unsplash.com/photo-1556040220-4096d522378d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                alt="food4"
+              ></img>
+              <img
+                className="w-56 h-44 mr-1 mb-1"
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                alt="food5"
+              ></img>
+            </div>
+          </div>
+          {/* IMAGES */}
+          {/* REVIEWS */}
+          <div>
+            <h1 className="font-bold text-3xl mt-10 mb-7 border-b pb-5">
+              What 100 people are saying...
+            </h1>
+          </div>
+          {/* REVIEW CARD */}
+          <div className="border-b pb-7 mb-7"></div>
+          <div className="flex">
+            <div className="w-1/6 flex flex-col items-center">
+              <div className="rounded-full bg-blue-400 w-16 h-16 flex items-center justify-center">
+                <h2 className="text-white text-2xl">KG</h2>
+              </div>
+              <p className="text-center">Kelly Garden</p>
+            </div>
+            <div className="ml-10 w-5/6">
+              <div className="flex items-center">
+                <div className="flex mr-5">⭐️⭐️⭐️⭐️⭐️</div>
+              </div>
+            </div>
+            <div className="mt-5 flex mr-5">
+              <p className="text-lg font-light ">
+                Incredible food, service and the bill is just right! Love the vibe.
+              </p>
+            </div>
+          </div>
+          {/* REVIEW CARD */}
+          {/* REVIEWS */}
         </div>
       </div>
       {/* DESCRIPTION PORTION */}
