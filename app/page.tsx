@@ -25,56 +25,52 @@ export default function Home() {
         </div>
       </nav>
       {/* NAVBAR */}
-      <main>
-        {/* HEADER */}
-        <div className="h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
-          <div className="text-center mt-10">
-            <h1 className="text-white text-5xl font-bold mb-2">
-              Find your table for any occassion
-            </h1>
-            {/* SEARCH BAR */}
-            <div className="text-left py-3 m-auto flex justify-center">
-              <input
-                className="bg-white rounded text-lg mr-3 p-2 w-[450px]"
-                type="text"
-                placeholder="State, City, or Town"
-              ></input>
-              <button className="rounded bg-red-600 px-9 py-2 text-white">
-                Let's Go
-              </button>
-            </div>
-
-            {/* SEARCH BAR */}
-          </div>
+      {/* HEADER */}
+      <div className="h-96 overflow-hidden">
+        <div className="bg-center bg-gradient-to-r from-[#0f1f47] to-[#5f6984] h-full flex justify-center items-center">
+          <h1 className="text-7xl text-white capitalize text-shadow text-center">
+            Bar Zia (Minneapolis)
+          </h1>
         </div>
-        {/* HEADER */}
-        {/* CARDS */}
-        <div className="py-3 px-36 mt-10 flex flex-wrap">
-          {/* CARD */}
-          <div className="w-64 h-72 m-3 rounded overflow-hidden border cursor-pointer">
-            <img
-              src="https://images.unsplash.com/photo-1550367363-ea12860cc124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
-              alt="beef ribs"
-              className="w-full h-36"
-            />
-            <div className="p-1">
-              <h3 className="font-bold text-2xl mb-2 text-black">Bar Zia</h3>
-              <div className="flex items-start">
-                <div className="flex mb-2">⭐️⭐️⭐️⭐️⭐️</div>
-                <p className="ml-2 text-black">77 Reviews</p>
-              </div>
-              <div className="flex text-reg font-light text-black capitalize">
-                <p className=" mr-3">Grill</p>
-                <p className="mr-3">$$</p>
-                <p className="mr-3">Minneapolis</p>
-              </div>
-              <p className="text-black text-sm mt-1 font-bold">Booked 4 times today!</p>
+      </div>
+      {/* HEADER */}
+      {/* DESCRIPTION PORTION */}
+      <div className="text-black flex m-auto w-2/3 justify-between items-start 0 -mt-11">
+        <div className="bg-white w-(70%) rounded p-3 shadow">
+          {/* RESTAURANT NAVBAR */}
+          <nav className="flex text-reg border-b pb-2">
+            <a href="" className="mr-7">
+              Overview
+            </a>
+            <a href="" className="mr-7">
+              Menu
+            </a>
+          </nav>
+          {/* RESTAURANT NAVBAR */}
+          {/* TITLE */}
+          <div className="mt-4 border-b pb-6">
+            <h1 className="font-bold text-6xl">Bar Zia</h1>
+          </div>
+          {/* TITLE */}
+          {/* RATING */}
+          <div className="flex items-end">
+            <div className="ratings mt-2 flex items-center">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p className="text-reg ml-3">4.8</p>
+            </div>
+            <div>
+              <p className="text-reg ml-4">600 Reviews</p>
             </div>
           </div>
-          {/* CARD */}
+          {/* RATING */}
+          {/* DESCRIPTION */}
+          <div className="mt-4">
+            <p className="text-lg font-light">Pizza with a signature spicy but sweet sauce, as well as pasta & sandwiches.</p>
+          </div>
+                  {/* DESCRIPTION */}
         </div>
-        {/* CARDS */}
-      </main>
+      </div>
+      {/* DESCRIPTION PORTION */}
     </main>
   );
 }
