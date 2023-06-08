@@ -93,3 +93,5 @@ package-lock.json
 .vscode/
 
 .next
+
+.DS_Store
